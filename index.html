@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Party Guest List</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <h2 class="guestList" style="text-align: center;">Guest List</h2>
+        <br>
+        <span>
+            <input type="input" id="guestPerson" placeholder="Enter name">
+            <button type="button" id="sumbitButton" onclick="namegotten();">Sumbit</button>
+            </span>    
+            </center>
+
+            <hr>
+            <center>
+                <p id="namess">
+
+                </p>
+                </center>
+            <hr>
+
+            <center>
+                <h2 class="guestList" style="text-align: center;">Guest List</h2>
+                <br>
+                <button type="button" id="showNames" onclick="showName();">Show Names</button>
+                <p id="namessList">
+
+                    </p>
+            </center>
+            
+            <hr>
+            <center>
+            <button id="sortButton" onclick="sortNames();">Show Sorted List</button>
+            <p id="sortedList">
+
+            </p>
+            </center>
+            <hr>
+
+            <center>
+                <span><input type="text" id="guestPersonSearch" placeholder="Search name"><button type="button" id="searchButton" onclick="search();">Search Name</button></span>
+                <p id="namefoundtimes"></p>
+            </center>
+            <script src="main.js"></script>
+    </body>
+</html>
